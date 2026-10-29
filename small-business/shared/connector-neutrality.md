@@ -21,7 +21,7 @@ which is the order every list in the plugin uses when more than one is named):
 |---|---|
 | Accounting ledger | MYOB, NetSuite, QuickBooks, Xero, Zoho Books |
 | CRM | HubSpot, Monday.com, Salesforce, Zoho CRM |
-| Lead data and enrichment | Apollo, Clay |
+| Lead data and enrichment | Apollo, Clay, RocketReach |
 | Mail | Gmail, Microsoft 365 |
 | Calendar | Google Calendar |
 | Payroll | Gusto, QuickBooks Payroll |

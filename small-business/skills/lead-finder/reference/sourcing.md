@@ -21,6 +21,8 @@ Pull contacts by title rather than by name. For SMB targets the decision-maker t
 
 **Clay** is a peer of Apollo (`../../../shared/connector-neutrality.md`): whichever is connected runs the search. Same approach, different tool — `find-and-enrich-company` for the look-alike companies, `find-and-enrich-contacts-at-company` for the people. Both are metered; name the estimated credits before searching.
 
+**RocketReach** is a peer too. Same approach, different tool — `company_search` for the look-alike companies, `person_search` for the people by title, then `person_lookup` for contact info on the ones that make the list. Lookups are metered; name the estimated credits before searching.
+
 ---
 
 ## Without Apollo — web research

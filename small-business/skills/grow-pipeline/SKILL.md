@@ -6,7 +6,7 @@ allowed-tools: Read, WebFetch
 
 Run the pipeline-building chain: a web-native market read for context, then `lead-finder` for the list, `outreach-composer` for the copy, and `crm-autopilot` for the record. Each skill keeps its own gates, and this command does not loosen any of them.
 
-Connectors: Apollo (or Clay) plus HubSpot is the full path. Mail (Gmail or Microsoft 365) adds sending. Zoom adds recorded discovery and sales calls to Step 4's logging — read-only, only meetings the owner hosted or attended, and its recordings list covers a one-month window per call, so a sweep asks month by month rather than for a range it cannot return. With none of them, web research plus an uploaded customer CSV goes in, a ranked list and drafted outreach come out for the owner to send by hand, and the log lives in a spreadsheet. That is a real run.
+Connectors: Apollo, Clay, or RocketReach, plus HubSpot is the full path. Mail (Gmail or Microsoft 365) adds sending. Zoom adds recorded discovery and sales calls to Step 4's logging — read-only, only meetings the owner hosted or attended, and its recordings list covers a one-month window per call, so a sweep asks month by month rather than for a range it cannot return. With none of them, web research plus an uploaded customer CSV goes in, a ranked list and drafted outreach come out for the owner to send by hand, and the log lives in a spreadsheet. That is a real run.
 
 ## Step 1 — Market context first (web research)
 

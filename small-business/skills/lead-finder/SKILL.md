@@ -41,9 +41,9 @@ Show the profile back in one compact block and ask for one correction pass. Owne
 
 Search for companies matching the profile.
 
-**With a lead-data connector connected** — Apollo or Clay, peers per `../../shared/connector-neutrality.md` — use it: firmographic filters, contact discovery, and buying signals in one place. Whichever is connected runs the search; if both are, ask which one the owner wants to spend credits in for this run, and say the estimated cost before searching.
+**With a lead-data connector connected** — Apollo, Clay, or RocketReach, peers per `../../shared/connector-neutrality.md` — use it: firmographic filters, contact discovery, and buying signals in one place. Whichever is connected runs the search; if more than one is, ask which one the owner wants to spend credits in for this run, and say the estimated cost before searching.
 
-**Without either**, use web research. This is a real path, not a consolation prize — industry directories, association member lists, local business registries, review sites, LinkedIn company pages, and permit or license databases for trades. It is slower and produces fewer rows, but the rows are often better because each one was actually looked at. See `reference/sourcing.md` for where to look by industry.
+**Without any of them**, use web research. This is a real path, not a consolation prize — industry directories, association member lists, local business registries, review sites, LinkedIn company pages, and permit or license databases for trades. It is slower and produces fewer rows, but the rows are often better because each one was actually looked at. See `reference/sourcing.md` for where to look by industry.
 
 Target 40 to 60 companies. A list of 500 unqualified rows is worse than 40 good ones — the owner will bounce off it and never come back.
 

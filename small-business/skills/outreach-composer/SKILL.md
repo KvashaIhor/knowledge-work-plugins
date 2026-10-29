@@ -49,7 +49,7 @@ For each prospect, find the specific hook. In order of strength:
 
 If no hook exists beyond category fit, write a shorter, plainly cold message and say it is cold. A fake-warm opener is worse than an honest cold one, because it reads as a mail merge and destroys credibility in the first line.
 
-**Apollo or Clay, when connected, can fill in the contact and company detail that makes a thin hook usable** — role, tenure, company size, tech stack — the kind of specific that keeps a message from reading as generic. Enrichment data, not a hook on its own.
+**Apollo, Clay, or RocketReach, when connected, can fill in the contact and company detail that makes a thin hook usable** — role, tenure, company size, tech stack — the kind of specific that keeps a message from reading as generic. Enrichment data, not a hook on its own.
 
 ## Step 3 — Write the sequence
 

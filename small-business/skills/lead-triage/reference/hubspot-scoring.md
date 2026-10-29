@@ -46,9 +46,9 @@ company at all.
 
 When every lead in a portal has no company
 association, company fit scores 5 across the board and the dimension
-contributes nothing. With a lead-data connector connected — Apollo or Clay,
-peers per `../../../shared/connector-neutrality.md` — fill the gap from the
-lead's email domain instead of scoring it flat:
+contributes nothing. With a lead-data connector connected — Apollo, Clay, or
+RocketReach, peers per `../../../shared/connector-neutrality.md` — fill the
+gap from the lead's email domain instead of scoring it flat:
 
 1. Collect the leads with no associated company and a business email domain
    (skip gmail, outlook, yahoo, icloud and the like — nothing to enrich).
@@ -63,6 +63,10 @@ lead's email domain instead of scoring it flat:
      whole set.
    - **Apollo:** `apollo_organizations_enrich` per domain, reading
      `industry` and `estimated_num_employees`.
+   - **RocketReach:** `company_search` with `domain` set to the lead's
+     email domain, reading `industry_str` and `employee_count` from the
+     result whose domain matches exactly (the filter also returns near
+     matches).
 4. Score company fit from the enriched values using the same table as an
    associated company. Mark those rows "fit from enrichment" in the caveats.
 5. **Never write the enriched fields back to the CRM from this skill.**

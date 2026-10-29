@@ -12,7 +12,7 @@ Parse arguments:
 
 ## Step 1 — Pipeline scan (lead-triage)
 
-Run the `lead-triage` skill workflow for the pull and the scoring — it owns the HubSpot field list, the four-dimension model, the note-body urgency fetch, the flat-score guard, and the enrichment leg (with Apollo or Clay connected, company fit for leads that have no company on file — metered, so lead-triage asks once about the credit cost; pass that question through to the owner rather than answering it). Do not rebuild any of that here. Then pull email threads from Mail for each surviving lead (last 3 emails per contact) for the talking points.
+Run the `lead-triage` skill workflow for the pull and the scoring — it owns the HubSpot field list, the four-dimension model, the note-body urgency fetch, the flat-score guard, and the enrichment leg (with Apollo, Clay, or RocketReach connected, company fit for leads that have no company on file — metered, so lead-triage asks once about the credit cost; pass that question through to the owner rather than answering it). Do not rebuild any of that here. Then pull email threads from Mail for each surviving lead (last 3 emails per contact) for the talking points.
 
 ## Step 2 — Rank and select top N
 

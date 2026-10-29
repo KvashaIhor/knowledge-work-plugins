@@ -51,10 +51,10 @@ Storefront and point-of-sale capability notes (what each holds, per its own refe
 
 | Skill | Required | Optional | Zero-connector fallback |
 |---|---|---|---|
-| `lead-finder` | Apollo or Clay | HubSpot | web research + customer CSV |
-| `outreach-composer` | Gmail or M365 | Apollo, Clay, HubSpot, Mailchimp | draft-only, paste anywhere |
+| `lead-finder` | Apollo, Clay, or RocketReach | HubSpot | web research + customer CSV |
+| `outreach-composer` | Gmail or M365 | Apollo, Clay, HubSpot, Mailchimp, RocketReach | draft-only, paste anywhere |
 | `speed-to-lead` | HubSpot + Mail (Gmail or M365) | Calendar, RingEx Chat | forwarded/pasted inquiries |
-| `lead-triage` | HubSpot | Apollo, Calendar, Clay, Gmail or M365 | pasted/uploaded lead list |
+| `lead-triage` | HubSpot | Apollo, Calendar, Clay, Gmail or M365, RocketReach | pasted/uploaded lead list |
 | `proposal-builder` | Drive or M365 | Apollo, Atlassian, Canva, DocuSign, Notion, Trello, Zoom; a ledger or a payments connector for pricing history and the deposit invoice | uploads in, DOCX/PDF out |
 | `crm-autopilot` | a CRM (HubSpot, Monday.com, Salesforce, or Zoho CRM) | Calendar, Notion, RingEx Chat, Trello, Zoom | built-in spreadsheet CRM |
 | `growth-pulse` | HubSpot + one revenue source | Mailchimp, PayPal, Shopify, Square, Stripe, TikTok Ads | CSV exports |
@@ -86,11 +86,11 @@ Commands inherit the requirements of the skills they chain. The lead skill's req
 | `/report-pack` | any one data connector, or CSV |
 | `/pay-the-bills` | a ledger (MYOB, NetSuite, QuickBooks, Xero, or Zoho Books) + Mail (Gmail or M365) |
 | `/restock` | Shopify, Square, or CSV |
-| `/grow-pipeline` | Apollo or Clay, + HubSpot |
+| `/grow-pipeline` | Apollo, Clay, or RocketReach, + HubSpot |
 | `/marketing-monday` | any one of PayPal / Shopify / HubSpot; TikTok Ads adds the paid-spend layer |
 | `/reactivate` | a CRM, a payments connector (PayPal, Square, or Stripe), or a storefront (Shopify or Square); a ledger and a support desk add invoice and service history |
 | `/plan-payroll` | a ledger (MYOB, NetSuite, QuickBooks, Xero, or Zoho Books); Gusto or QuickBooks Payroll for the timesheet leg |
 | `/close-month` | a ledger (MYOB, NetSuite, QuickBooks, Xero, or Zoho Books) |
 | `/tax-prep` | a ledger (MYOB, NetSuite, QuickBooks, Xero, or Zoho Books); the tax math runs only for a US business |
 | `/monday-brief` | none — degrades gracefully |
-| `/call-list` | HubSpot; Mail (Gmail or M365) adds email context, Google Calendar adds the blocks, Apollo or Clay adds company fit (metered, asked once) |
+| `/call-list` | HubSpot; Mail (Gmail or M365) adds email context, Google Calendar adds the blocks, Apollo, Clay, or RocketReach adds company fit (metered, asked once) |

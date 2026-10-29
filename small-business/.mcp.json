@@ -84,6 +84,10 @@
       "type": "http",
       "url": "https://mcp.labs.ringcentral.com/ringex/v1.1.0/team-chat"
     },
+    "rocketreach": {
+      "type": "http",
+      "url": "https://mcp.rocketreach.co/mcp"
+    },
     "shopify": {
       "type": "http",
       "url": "https://setup.shopify.com/mcp"
