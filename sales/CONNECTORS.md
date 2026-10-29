@@ -18,7 +18,7 @@ Every skill also works with nothing connected: upload an export or paste notes, 
 | Chat | `~~chat` | Slack, Microsoft 365 (Teams)\* |  |
 | Docs and knowledge base | `~~knowledge base` | Google Drive, Notion, Atlassian (Confluence), Microsoft 365 (SharePoint)\* | Box, Dropbox, Guru |
 | Conversation intelligence | `~~conversation intelligence` | Gong, Fireflies, Zoom, Otter.ai | Granola, Fathom, Chorus |
-| Data enrichment | `~~data enrichment` | Clay, ZoomInfo, Apollo, Lusha, Crunchbase | Clearbit |
+| Data enrichment | `~~data enrichment` | Clay, ZoomInfo, Apollo, Lusha, Crunchbase, RocketReach | Clearbit |
 | Sales engagement | `~~sales engagement` | Outreach, Apollo | Salesloft |
 | Competitive intelligence | `~~competitive intelligence` | Similarweb | Crayon, Klue |
 | Project tracker | `~~project tracker` | Atlassian (Jira) | Linear, Asana |
